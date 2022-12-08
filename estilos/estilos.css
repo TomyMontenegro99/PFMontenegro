@@ -1,3 +1,4 @@
+
 /* selector universal (reset) */
 * {
     margin: 0;
@@ -76,35 +77,68 @@ ul {
 /*CONTENIDO PRINCIPAL*/
 
 .hero{
-    display: flex;
-    padding: 30px 30px;
-    margin-bottom: 10px; 
+    
+    padding: 30px;
+    margin-bottom: 10px;
+
 }
+.hero__contenido{
+    display: flex;
+    justify-content: center;
+    flex: row;
+}
+
 .hero__contenido-info {
     padding: 30px;
-    margin: 50px;
-    float: left;
+    margin-left: 80px;
+    
+    
+    
     
 }
 .hero__contenido-info h1{
-    letter-spacing: 0.5px;
-    font-size: 30px;
-    margin: 0 10;
-    width: 60%;
-}
-.hero__contenido-info-link{
     
-    padding: 50px 10px;
+    letter-spacing: 0.5px;
+    font-size: 60px;
+    margin-bottom: 40px;
+    width: 60%;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+    animation: tituloMove .5s ease infinite alternate;
+}
+
+.hero__contenido-info h2{
+    padding-left: 20px;
+    font-size: 20px;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.hero__contenido-info h3{
+    padding-left: 20px;
+    font-size: 20px;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.hero__contenido-info-link{
+    font-size: 20px;
+    padding-left: 20px;
 }
 
 .hero__contenido-info-link2{
-    float: left;
+    font-size: 20px;
+    
+}
+
+.hero__contenido-imagen{
+    align-items: center;
+    padding: 30px;
+    margin: 50px;
+    
 }
 
 .hero__contenido-imagen img{
-    float: right;
-    padding: 20px;
-    width: 27%;
+    width: 80%;
     border-radius: 30%;
 }
 
@@ -336,6 +370,30 @@ ul {
     font-family: 'Poppins', sans-serif;
     font-style: italic;
 }
+
+/* ANIMACIONES */
+
+
+@keyframes tituloMove{
+    100% {
+        top: -30px;
+        
+        text-shadow: 0 1px 0 #CCC,
+                     0 2px 0 #CCC,
+                     0 3px 0 #CCC,
+                     0 4px 0 #CCC,
+                     0 5px 0 #CCC,
+                     0 6px 0 #CCC,
+                     0 7px 0 #CCC,
+                     0 8px 0 #CCC,
+                     0 9px 0 #CCC,
+                     0 30px 30px rgba(0, 0, 0, .3);
+      }
+
+
+}
+
+
     
 
 
