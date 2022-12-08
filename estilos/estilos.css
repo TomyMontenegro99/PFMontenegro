@@ -367,12 +367,7 @@ ul {
     
 }
 
-.pie-pagina__redes ul{
-    display:flex;
-    margin: auto;
-    justify-content: space-between;
 
-}
 
 /* ANIMACIONES */
 
@@ -428,9 +423,41 @@ ul {
         margin:0px;
     }
 
-    
-    
-    
+    .hero__contenido{
+        display: flow-root;
+        
+        
+        margin-left: 30px;
+    }
+
+    .hero__contenido-info h1{
+        font-size: 40px;
+        padding: 30px;
+        margin-bottom: 40px;
+        padding: 20px;
+    }
+
+    .hero__contenido-info-enlaces{
+        display: block;
+    }
+
+    .hero__contenido-info-link{
+        margin-left: 0px;
+        margin-bottom: 50px;            
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    .hero__contenido-info-link2{
+        font-size: 15px;
+        padding: 10px;
+        margin:20px;
+    }
+
+    .pie-pagina{
+        font-size: 15px;
+    }
+
 
 }
 
