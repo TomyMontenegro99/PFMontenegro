@@ -22,7 +22,8 @@ body {
     font-style: normal;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(18, 155, 204);
-    background:url('../recursos/imagenes/fondo-principal.jpg')
+    
+    
 }
 
 /* GLOBAL */
@@ -127,14 +128,12 @@ ul {
 
 .hero__contenido-info-link2{
     font-size: 20px;
-    
 }
 
 .hero__contenido-imagen{
     align-items: center;
     padding: 30px;
     margin: 50px;
-    
 }
 
 .hero__contenido-imagen img{
@@ -151,9 +150,7 @@ ul {
 }
 
 
-    .grid{
-        grid-template-columns:repeat(3,1fr);
-    }
+    
 
 
 /* CATALOGO DE AUTOS*/
@@ -175,7 +172,7 @@ ul {
     color: rgb(0, 0, 0);
 }
 .auto__imagen{
-    width: 100%;
+    width: 80%;
     border-style: groove;
 }
 .auto__video iframe{
@@ -222,40 +219,27 @@ ul {
     display: grid;
     padding: 30px 20px;
     grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
 }
-
-
-    .nosotros{
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 2rem;
-    }
-
 
 .nosotros__imagen{
     grid-row: 1 / 2;
     border-radius: 50%;
+    grid-column: 2 / 3;
 }
-
-
-    .nosotros__imagen{
-        grid-column: 2 / 3;
-
-    }
-
 
 /** Bloques **/
 
 .bloques{
     display: grid;
-    grid-template-columns:repeat(2, 1fr);
     gap: 2rem;
     padding: 30px 20px;
+    grid-template-columns:repeat(4, 1fr);
 }
 
 
-    .bloques{
-        grid-template-columns:repeat(4, 1fr);
-    }
+    
 
 
 .bloque{
@@ -295,17 +279,17 @@ ul {
     color: black;
 }
 
-
-    .contenedor-campos{
+.contenedor-campos{
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: auto auto 20rem;
         column-gap: 1rem; 
-    }
-    .campo:nth-child(3),
-    .campo:nth-child(4) {
+}
+
+.campo:nth-child(3),
+.campo:nth-child(4) {
         grid-column: 1 / 3;
-    }
+}
 
 
 .campo{
@@ -364,7 +348,10 @@ ul {
     font-family: 'Poppins', sans-serif;
     font-style: italic;
     padding: 40px;
-    
+}
+
+.pie-pagina p{
+    margin-left: 650px;
 }
 
 
@@ -457,6 +444,36 @@ ul {
     .pie-pagina{
         font-size: 15px;
     }
+
+    .contenedor h1 {
+        padding: 40px;
+        margin-left: 100px;
+    }
+
+    .nosotros{
+        display:block;
+    }
+
+    .nosotros__contenido p{
+        margin-left: 30px;
+    }
+
+    .nosotros__imagen{
+        padding: 30px;
+        max-width: 100%;
+    }
+
+    .comprar__titulo{
+        margin-left: 65px;
+    }
+
+    .bloques{
+        grid-template-columns:repeat(2, 1fr);
+    }
+
+
+
+
 
 
 }
