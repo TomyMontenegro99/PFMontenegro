@@ -187,7 +187,6 @@ ul {
     justify-content: space-between;
     padding:100px 20px;
     align-items: center;
-    
 }
 
 .auto__descripcion{
@@ -203,11 +202,9 @@ ul {
 /* NOSOTROS */
 
 .contenedor{
-
      max-width: 120rem;
      margin: 0 auto;
      padding: 30px 20px;
-
 }
 
 .contenedor h1{
@@ -240,10 +237,6 @@ ul {
     padding: 30px 20px;
     grid-template-columns:repeat(4, 1fr);
 }
-
-
-    
-
 
 .bloque{
     text-align: center;
@@ -471,11 +464,18 @@ ul {
         grid-template-columns:repeat(2, 1fr);
     }
 
+    .grid{
+        display: block;
+        margin-left: -100px;
+    }
 
+    .auto__nombre{
+        margin-left: 100px;
+    }
 
-
-
-
+    .auto__precio{
+        margin-left: 100px;
+    }
 }
 
 
