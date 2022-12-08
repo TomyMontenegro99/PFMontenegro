@@ -77,15 +77,18 @@ ul {
 
 .hero{
     display: flex;
-    
     padding: 30px 30px;
     margin-bottom: 10px; 
 }
 .hero__contenido-info {
-    padding: 30px 150px;
+    padding: 30px;
+    margin: 50px;
     float: left;
+    
 }
 .hero__contenido-info h1{
+    letter-spacing: 0.5px;
+    font-size: 30px;
     margin: 0 10;
     width: 60%;
 }
@@ -100,8 +103,8 @@ ul {
 
 .hero__contenido-imagen img{
     float: right;
-    padding: 30px;
-    width: 30%;
+    padding: 20px;
+    width: 27%;
     border-radius: 30%;
 }
 
@@ -275,6 +278,8 @@ ul {
     margin-bottom: 1rem;
 }
 
+
+
 .campo label{
     color:black;
     font-weight: bold;
@@ -290,9 +295,13 @@ ul {
 
 .input-text {
     width: 90%;
-    border: none;
     padding: 1.5rem;
     border-radius: .5rem; 
+    transition: all 0.5s;
+}
+
+.input-text:focus{
+    border: 5px  inset black;
 }
 
 .formulario__boton{
