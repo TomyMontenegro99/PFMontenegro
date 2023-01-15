@@ -132,6 +132,7 @@ ul {
   padding: 30px;
 }
 .auto__nombre {
+  color: #4c1707;
   font-size: 15px;
 }
 .auto__precio {
@@ -388,10 +389,19 @@ ul {
   .auto__precio {
     margin-left: 100px;
   }
-
   .auto__imagengaleria{
     width: 80%;
     margin-left: 40px;
+  }
+  
+  .auto__datos{
+    display: block;
+    margin-left: 100px; 
+  }
+  .auto__video iframe{
+    width: 100%;
+    margin-left:0px;
+
   }
   .formulario {
     width: min(30rem, 100%);
