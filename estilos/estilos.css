@@ -374,5 +374,12 @@ ul {
   .auto__precio {
     margin-left: 100px;
   }
+  .formulario {
+    width: min(30rem, 100%);
+  }
+  .formulario__boton-enviar {
+    font-size: 0.8rem;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
