@@ -282,9 +282,17 @@ ul {
   font-style: italic;
   padding: 40px;
 }
-.pie-pagina p {
-  margin-left: 650px;
+.pie-pagina__bloques{
+  display: grid;
+  gap: 25rem;
+  
+  grid-template-columns: repeat(4, 1fr);
 }
+
+.pie-pagina__bloque-imagen{
+  width:50%;
+}
+
 /* ANIMACIONES */
 @keyframes tituloMove {
   100% {
