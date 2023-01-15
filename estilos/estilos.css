@@ -99,10 +99,13 @@ ul {
   margin-bottom: 50px;
 }
 .hero__contenido-info-link {
+  text-shadow: #CCC;
   font-size: 20px;
+  color:rgb(95, 89, 96);
   padding-left: 20px;
 }
 .hero__contenido-info-link2 {
+  color:rgb(255, 0, 128);
   font-size: 20px;
 }
 .hero__contenido-imagen {
@@ -285,7 +288,6 @@ ul {
 .pie-pagina__bloques{
   display: grid;
   gap: 25rem;
-  
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -305,16 +307,17 @@ ul {
   .encabezado__contenido {
     display: list-item;
   }
+  .encabezado__logo img{
+    margin-left: 50px;
+  }
   .encabezado__contenido a {
     padding: 10px;
     margin-bottom: 10px;
-    margin-left: 150px;
-    justify-content: center;
+    margin-left: 100px;
   }
   .encabezado__contenido h1 {
     padding: 10px;
-    justify-content: center;
-    margin-left: 69px;
+    margin-left: 80px;
   }
   .encabezado__contenido-menu {
     padding: 20px;
@@ -326,7 +329,7 @@ ul {
   }
   .hero__contenido {
     display: flow-root;
-    margin-left: 30px;
+    margin-left: 40px;
   }
   .hero__contenido-info h1 {
     font-size: 40px;
@@ -347,6 +350,9 @@ ul {
     font-size: 15px;
     padding: 10px;
     margin: 20px;
+  }
+  .hero__contenido-imagen{
+    margin-left: 80px;
   }
   .pie-pagina {
     margin-left: -650px;
@@ -382,12 +388,24 @@ ul {
   .auto__precio {
     margin-left: 100px;
   }
+
+  .auto__imagengaleria{
+    width: 80%;
+    margin-left: 40px;
+  }
   .formulario {
     width: min(30rem, 100%);
   }
   .formulario__boton-enviar {
     font-size: 0.8rem;
     text-align: center;
+  }
+  .pie-pagina__bloques{
+    gap:40px;
+    margin-left: 650px;
+  }
+  .pie-pagina__bloque-imagen{
+    width:100%;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
